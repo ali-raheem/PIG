@@ -1,4 +1,4 @@
-#Photo Index Generator
+# Photo Index Generator (PIG)
 
 Simple gallery of photos intended to be printed as index cards for a collection.
 
@@ -32,3 +32,5 @@ python3 pig.py --image_dir /mnt/data/Photos/Wedding wedding.html --output_path w
 This will create a set of HTML files named like "wedding_photos_1_10.html", each will contain --num photos (default 80) and will have links to navigate between them at the bottom.
 
 By default paginates to 80 images in rows of 5 images. Around the size of an A4 page.
+
+Firefox currenlty has a bug making printing directly hard, consider converting from html to PDF directly and verifying output then printing. Or use Chrome, or just about any other browser.

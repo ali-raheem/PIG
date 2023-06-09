@@ -38,7 +38,7 @@ def get_head():
     <body>"""
 def get_footer():
 	return """
-    Made with PhotoIndexGenerator 0.1.0 https://github.com/ali-raheem/PIG
+    Made with PhotoIndexGenerator (PIG) 0.1.0 <a href='https://github.com/ali-raheem/PIG'>Source</a>
     </body>
     </html>
     """
