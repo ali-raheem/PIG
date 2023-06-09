@@ -75,11 +75,9 @@ def generate_gallery_html(images, title, description, num_images_per_row):
 
 
 def main(image_dir: str, output_path: str, title: str, description: str, num: int, ext: list, num_images_per_row: int):
-    # Find all images in the image_dir with matching extensions
     images = [os.path.join(image_dir, file) for file in os.listdir(image_dir)
               if file.lower().endswith(tuple(ext))]
 
-    # Sort images by filename
     images.sort()
 
     num_sets = (len(images)+1) // num
